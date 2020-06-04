@@ -70,7 +70,7 @@ In the end, just check if the MODEL was applied in your database.
 * `config.py` - Config file for envs, global config vars and so on.
 * `manage.py` - The SQLAlchemy/Alembic entrypoint.
 * `models.py` - Models of this example.
-* `README.md` - Instructions and informations of this "challenge".
+* `README.md` - Instructions and informations of this "example".
 * `requirements.txt` - All project dependencies.
 
 
