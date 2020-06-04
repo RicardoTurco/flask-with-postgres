@@ -50,6 +50,30 @@ IMPORTANT: Every time there's a change in MODELs, just execute the last two inst
 In the end, just check if the MODEL was applied in your database.
 ```
 
+## Project Structure
 
-Based on article: "Flask by Example" (partes One and Two)  
+```
+├── flask-with-postgres
+│   ├──  .gitignore
+│   ├──  app.py
+│   ├──  config.py
+│   ├──  manage.py
+│   ├──  models.py
+│   ├──  README.md
+│   ├──  requirements.txt
+```
+
+### Files
+
+* `.gitignore` - Lists files and directories which should not be added to git repository.
+* `app.py` - The Application entrypoint.
+* `config.py` - Config file for envs, global config vars and so on.
+* `manage.py` - The SQLAlchemy/Alembic entrypoint.
+* `models.py` - Models of this example.
+* `README.md` - Instructions and informations of this "challenge".
+* `requirements.txt` - All project dependencies.
+
+
+Based on article: "Flask by Example" (parts One and Two)  
 ```https://realpython.com/flask-by-example-part-1-project-setup/```
+
