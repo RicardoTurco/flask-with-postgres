@@ -4,7 +4,7 @@ This example aims to demonstrate a simple way to connect a FLASK project to Post
 
 ## PostgreSQL
 
-Before run, i'm considering that POSTGRES is already properly installed and configured; just perform the following instructions:  
+Before run, i'm considering that POSTGRES is already properly installed and configured in your machine; just perform the following instructions:  
 (don't forget to put the "values" in your "environment variable - DATABASE_URL")
 
 create database ```<database_name>```;  
